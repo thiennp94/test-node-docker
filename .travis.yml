@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - docker build -t thiennp94/node .
+  - docker images thiennp94/node
